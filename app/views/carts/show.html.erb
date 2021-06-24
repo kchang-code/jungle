@@ -5,7 +5,18 @@
   </header>
 
   <div class="panel panel-default items">
-    
+    <% if enhanced_cart.length == 0 %>
+    <div>
+    <h2 >The Cart is empty!</h2>
+    <p >Shop around and add some new products to your cart</p>
+      <div>
+        <%= link_to 'Home', :root, class: 'btn btn-info' %>
+      </div>
+      </div>
+    <% else %>
+      <%= render 'cart_items', @enhanced_cart %>
+    <% end %>
+
   </div>
 
   <div class="row">
