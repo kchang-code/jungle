@@ -1,0 +1,25 @@
+<table class="table table-bordered">  
+  <thead>
+    <tr>
+      <th colspan="2">Product</th>
+      <th>Unit Price</th>
+      <th>Quantity</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tbody>
+    <% @line_items.each do |item| %>
+      <%= render 'item', item: item %>
+    <% end %>
+    </tbody>
+    <tr>
+      <th colspan="4">
+        FINAL TOTAL:
+      </th>
+      <th>
+        <%= humanized_money_with_symbol total / 100.0 %>
+      </th>
+    </tr>
+  </tfoot>
+</table>
