@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   resources :categories, only: [:show]
 
   resource :about, only: [:index] do
-    root to 'about#index'
+    root to: 'about#index'
   end 
 
   resource :cart, only: [:show] do
