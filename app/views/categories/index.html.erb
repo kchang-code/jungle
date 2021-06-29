@@ -4,25 +4,24 @@
     <h1>Admin &raquo; All Categories</h1>
   </header>
 
-  <div class="well">
-    <%= link_to '+ New Category', [:new, :admin, :category], class: 'btn btn-info' %>
-  </div>
-
   <div class="panel panel-default products">
 
     <table class="table table-bordered">
       <thead>
         <tr>
-          <th colspan="2">Category</th>
-          <th>Name</th>
-          <th></th>
+          <th>Category</th>
+          <th>Total Products</th>
         </tr>
       </thead>
       <tbody>
-        <%# <%= render @products %> %>
+        <%= render @categorys %>
       </tbody>
     </table>
-
   </div>
+
+    <div class="well">
+      <h2>Create a new category here</h2>
+      <%= link_to '+ New Category', [:new, :admin, :category], class: 'btn btn-info' %>
+    </div>
 
 </section>
