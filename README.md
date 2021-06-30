@@ -11,10 +11,10 @@ I created the following bug fixes and features:
 - Fixed checkout page for empty cart use case
 
 ## Screenshots
-![Home page product view] 
-![My Cart]
-![Order confirmation details]
-![Product Details]
+![Home page product view](https://github.com/kchang-code/jungle/blob/master/docs/Screen%20Shot%202021-07-01%20at%207.53.53%20AM.png?raw=true)
+![My Cart](https://github.com/kchang-code/jungle/blob/master/docs/Screen%20Shot%202021-07-01%20at%207.54.05%20AM.png?raw=true)
+![Order confirmation details](https://github.com/kchang-code/jungle/blob/master/docs/Screen%20Shot%202021-07-01%20at%207.54.36%20AM.png?raw=true)
+![Product Details](https://github.com/kchang-code/jungle/blob/master/docs/Screen%20Shot%202021-07-01%20at%207.54.58%20AM.png?raw=true)
 
 ## Additional Steps for Apple M1 Machines
 
