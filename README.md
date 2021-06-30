@@ -1,6 +1,20 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example. 
+
+I created the following bug fixes and features: 
+- Sold out badge display on the product list page
+- Created the admin controls to create categories and create products 
+- Added admin security features
+- Enhanced order details page 
+- Added user authentication 
+- Fixed checkout page for empty cart use case
+
+## Screenshots
+![Home page product view] 
+![My Cart]
+![Order confirmation details]
+![Product Details]
 
 ## Additional Steps for Apple M1 Machines
 
