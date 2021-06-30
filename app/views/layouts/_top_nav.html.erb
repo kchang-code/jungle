@@ -50,7 +50,7 @@
         </li>
         <% if current_user %>
         <li class='navbar-text'> 
-          Signed in as <%= current_user.first_name %>, <%= current_user.last_name %> 
+          Signed in as <%= current_user.name %>
         </li>
         <li>
           <%= link_to "Logout", '/logout' %>
