@@ -1,2 +1,14 @@
-<h1>Total Products: <%= @product_count %></h1>
-<h1>Total Categories: <%= @categories_count %></h1>
+<table class="table table-bordered">
+<h1>Dashboard</h1>
+<thead>
+  <tr>
+    <th>Products</th>
+    <th>Categories</th>
+    <th>Total</th>
+  </tr>
+
+  <td><%= @product_count %></td>
+  <td><%= @categories_count %></td>
+  <td><%= @product_count + @categories_count%></td>
+</thead>
+</table>
